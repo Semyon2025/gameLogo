@@ -1,0 +1,29 @@
+.Platform{
+    background: url('../../../images/Rectangle 5.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+.Platform h3, .Platform p{
+    margin-bottom: 20px ;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Platform h3{
+    font-size: 30px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.icons{
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+}
+.icons img{
+    margin-bottom: 15px;
+}

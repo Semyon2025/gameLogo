@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  }
+  img{
+    max-width: 100%;
+  }
+    .wrapper{
+  
+      background: 000000;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%,
+       rgba(26, 14, 1, 1) 100%);
+       width: 100%;
+      
+     }
+  
+    .GeneralContainer{
+      max-width: 1146px;
+      margin: 0 auto;
+    }
+  

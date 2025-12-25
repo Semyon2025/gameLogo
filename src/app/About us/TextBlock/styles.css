@@ -1,0 +1,35 @@
+.work {
+  padding: 100px 0;
+}
+.work h2 {
+  font-size: 25px;
+  margin: 40px;
+}
+.blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  width: 25%;
+  border-radius: 10px;
+  padding: 50px 35px;
+  background: #1c140f;
+}
+.bargeBrown {
+  border-radius: 7px;
+  background: rgba(176, 0, 220, 0.11);
+  padding: 12px;
+}
+.content h3 {
+  padding: 15px;
+}
+.bargePurple {
+  border-radius: 7px;
+  background: rgba(220, 66, 0, 0.11);
+  padding: 12px;
+}
+.bargeGreen {
+  border-radius: 7px;
+  background: rgba(0, 220, 141, 0.11);
+  padding: 12px;
+}

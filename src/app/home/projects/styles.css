@@ -1,0 +1,27 @@
+.Projects h3, .Projects p{
+    margin-bottom: 20px ;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Projects h3{
+    font-weight: 600;
+    font-size: 35px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    margin-bottom: 25px;
+}
+.Projects{
+    max-width: 1146px;
+    margin: 0 auto;
+}
+.Projects .seeAll{
+  width: 55px;
+  text-align: center;
+  margin: auto;
+}

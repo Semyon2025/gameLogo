@@ -1,0 +1,27 @@
+.teams {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+ 
+}
+
+.team {
+  background: #1c140f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  border-radius: 15px;
+  padding: 20px 70px 10px 70px;
+  justify-content: center;
+
+}
+.teams-title{
+    margin-top: 30px;
+}
+.team img {
+    display: block;
+    height: 80px;              
+    width: auto;
+    object-fit: contain;
+  }

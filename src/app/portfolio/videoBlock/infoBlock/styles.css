@@ -1,0 +1,22 @@
+.InfoPortfolioBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 100px auto;
+}
+.PortfolioBtn {
+  background: #dc7000;
+  color: #fff;
+  padding: 15px 25px;
+  transition: all 0.5s ease;
+  font-size: 16px;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.TextPortfolioBlock {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  max-width: 450px;
+}

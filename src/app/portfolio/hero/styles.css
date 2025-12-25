@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 70px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #999;
+}
+
+.nav-link.active {
+  color: #dc7000a9;
+}
+
+.nav-sep {
+  color: #999;
+}
+.HeroPortfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.HeroPortfolio h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.dark-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #1c140f;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background-color: rgba(255, 255, 255);
+  margin: 0 20px;
+}
+
+.dark-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.dark-box img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.dark-box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
