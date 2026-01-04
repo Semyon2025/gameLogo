@@ -3,7 +3,7 @@ import img1 from "../../images/Rectangle 4.svg";
 import img2 from "../../images/Rectangle 6.svg";
 import img3 from "../../images/Rectangle 17.png";
 import "./slider.css";
-import { Pagination } from "../features/pagination/pagination";
+import { Pagination } from "./pagination/pagination";
 
 const images = [img1, img2, img3];
 

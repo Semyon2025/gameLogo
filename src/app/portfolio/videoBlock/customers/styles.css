@@ -1,0 +1,158 @@
+.customers-slider-container {
+  position: relative;
+  width: 100%;
+}
+
+.customers-slider {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.customer-slide {
+  width: 100%;
+  overflow: hidden;
+}
+
+.customers-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.customers-slider-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-slider-controls .pagination-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customers-slider-controls .pagination-container button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333333;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.customers-slider-controls .pagination-container button:hover {
+  background-color: #FA9021;
+  transform: scale(1.1);
+}
+
+.customers-slider-controls .pagination-container button:active {
+  transform: scale(0.95);
+}
+
+.customers-slider-controls .pagination-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.customers-slider-controls .pagination-container button img {
+  width: 15px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+.customers-slider-controls .pagination-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.customers-slider-controls .pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #CCCCCC;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.customers-slider-controls .pagination-dot.active {
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #FA9021;
+}
+
+.customers {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #fff;
+  max-width: 300px;
+  min-height: 200px;
+}
+
+.customer-name {
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.customer-info {
+  display: flex;
+  flex-direction: column;
+}
+.customers img {
+  width: 22%;
+  height: auto;
+}
+.customers h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.customers p {
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+.customer-block {
+  display: flex;
+  justify-content: space-between;
+}
+.customer-info p{
+  opacity: 0.5;
+}
+
