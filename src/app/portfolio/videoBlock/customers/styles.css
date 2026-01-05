@@ -155,4 +155,15 @@
 .customer-info p{
   opacity: 0.5;
 }
+.customer-rating{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.customer-rating img{
+  width: 50%;
 
+}
+.customer-rating p{
+  margin-top: 15px;
+}

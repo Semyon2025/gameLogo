@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./styles.css";
 import { CustomersData, Customer } from "../../../../mocks/customersData";
 import { PaginationCust } from "../../../features/pagination/paginationCust/paginationCust";
+import star from "../../../../images/star.svg";
 
 export default function Customers() {
   const [Customers, setCustomers] = useState<Customer[]>([]);
@@ -74,18 +75,19 @@ export default function Customers() {
             {visibleCustomers.map((customer) => (
               <div className="customers" key={customer.id}>
                 <div className="customer-block">
-                <div className="customer-name">
-                <img src={customer.img} alt={`Customer ${customer.id}`} />
-                
-                  <div className="customer-info">
-                    <h3>{customer.name}</h3>
-                    <p>{customer.location}</p>
-                  </div>
+                  <div className="customer-name">
+                    <img src={customer.img} alt={`Customer ${customer.id}`} />
+
+                    <div className="customer-info">
+                      <h3>{customer.name}</h3>
+                      <p>{customer.location}</p>
+                    </div>
                   </div>
                   <div className="customer-rating">
                     <p>{customer.rating}</p>
+                    <img src={star} alt="star" />
                   </div>
-                  </div>
+                </div>
                 <div className="customer-comment">
                   <p>{customer.comment}</p>
                 </div>
