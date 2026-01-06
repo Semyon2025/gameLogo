@@ -1,0 +1,60 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 70px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    color: #999;
+  }
+  
+  .nav-link.active {
+    color: #dc7000a9;
+  }
+  
+  .nav-sep {
+    color: #999;
+  }
+  .HeroNews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .HeroNews input{
+    background: #1C140F;
+    outline: none;
+    border: 0;
+    border-radius: 7px;
+    max-width: 380px;
+    font-family: poppins;
+    padding: 10px 10px;
+    padding-right: 120px;
+    position: relative;
+    
+    z-index: 1;
+    box-sizing: border-box;
+  }
+  .search {
+    position: relative;
+    width: 380px;
+    margin-top: 50px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+    z-index: 2;
+  }
+  
+  .HeroNews input {
+    width: 100%;
+    padding-left: 40px;
+  }
