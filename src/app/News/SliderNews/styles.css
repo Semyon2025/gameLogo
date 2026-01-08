@@ -1,0 +1,54 @@
+.layuot {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  
+}
+.left-news {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin-top: 50px;
+}
+.news-cardLeft {
+ padding: 70px 0;
+}
+.left-news h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 30px;
+}
+.NameNew {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.NameNew span {
+  padding: 10px;
+}
+.NameNew p {
+  transform: translateY(20%);
+}
+.news-cardLeft:not(:last-child) {
+ 
+    border-bottom: 1px solid #3a3a3a;
+  }
+.news-cardRight{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.content-new{
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.content-new p{
+  font-weight: 600 ;
+  gap: 15px;
+  margin-top: 30px;
+  font-size: 23px;
+}
+.right-news{
+ max-width: 600px;
+}
