@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 70px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #999;
+}
+
+.nav-link.active {
+  color: #dc7000a9;
+}
+
+.nav-sep {
+  color: #999;
+}
+.HeroNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 150px;
+  background-color: rgba(255, 255, 255);
+  margin: 0 20px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+.contact-box h4 {
+  margin-left: 15px;
+}
+
+.contact-boxes {
+  display: flex;
+
+  align-items: center;
+  padding: 30px 40px;
+  width: 100%;
+  margin-top: 50px;
+  max-width: 1400px;
+}
+.phone-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+.phone-box h3 {
+  font-weight: 200;
+}
+.phone-box img {
+  transform: translateY(-30%);
+}

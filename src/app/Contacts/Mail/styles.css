@@ -1,0 +1,79 @@
+.wrapper-mail {
+  padding: 100px 0;
+  background-color: #1C140F;
+}
+.wrapper-mail h2{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.general-mail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+.wrapper-mail input {
+  background-color: #4f4f4f;
+  border-radius: 10px;
+  border: 1px solid #cecece; 
+
+  
+}
+.one{
+  display: flex;
+  justify-content:space-between;
+  gap: 50px;
+  margin-top: 50px;
+}
+.one input{
+  width: 350px;
+  padding: 20px ;
+  
+}
+.two{
+  margin-top: 50px;
+}
+.two input{
+  width: 750px;
+  padding: 20px ;
+}
+.three{
+  margin-top: 50px;
+}
+.three input{
+  width: 750px;
+  padding: 100px ;
+}
+.btn-mail{
+  background: #fa9021;
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: poppins;
+  transition: 0.3s;
+  margin-left: auto;
+  margin-top: 50px;
+}
+    
+.btn-mail:hover {
+  background: #dc7000a9;
+}
+.Touch{
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto;
+  
+}
