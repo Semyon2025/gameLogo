@@ -8,6 +8,7 @@
   }
   .banner {
     padding: 80px 0;
+ margin: auto;
   }
   .banner h3{
     font-size: 30px;
@@ -17,5 +18,5 @@
   .banner p{
     line-height: 170%;
     margin-bottom: 30px;
-    width: 550px;
+    max-width: 550px;
   }

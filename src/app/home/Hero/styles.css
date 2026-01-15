@@ -2,9 +2,10 @@
     padding-bottom: 100px;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 .heroInfo{
-  width: 530px;
+  max-width: 530px;
   padding-top: 70px;
   
 }
@@ -30,6 +31,7 @@ right: -120px;
 top: -150px;
 max-width: 100%;
 z-index: -1;
+overflow: hidden;
 }
 button.btn{
   background: #FA9021;
@@ -42,4 +44,11 @@ button.btn{
 }
 button.btn:hover{
   background: #dc7000a9;
+}
+
+
+@media (max-width: 600px) {
+  .vertical-line {
+    display: none;
+  }
 }

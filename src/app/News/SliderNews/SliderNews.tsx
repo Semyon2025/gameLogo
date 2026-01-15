@@ -9,12 +9,12 @@ export default function SliderNews() {
       <div className="left-news">
         {leftNews.map((item) => (
           <div className="news-cardLeft" key={item.id}>
-            <img src={item.img} alt="" />
+            <img src={item?.img} alt="img" />
             <div className="NameNew">
               <span style={{ backgroundColor: item.color }}>{item.name}</span>
-              <p>{item.time}</p>
+              <p>{item?.time}</p>
             </div>
-            <h2>{item.comment}</h2>
+            <h2>{item?.comment}</h2>
             {item.text && <p>{item.text}</p>}
           </div>
         ))}
@@ -27,7 +27,7 @@ export default function SliderNews() {
             <div className="content-new">
             <div className="NameNew">
               <span style={{ backgroundColor: item.color }}>{item.name}</span>
-              <span>{item.time}</span>
+              {item.time || <span>{item.time}</span>}
             </div>
             
             <p>{item.comment}</p>

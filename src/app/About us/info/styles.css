@@ -9,11 +9,11 @@
   padding: 60px 0 0;
   max-width: 1146px;
   margin: 0 auto;
- 
+ flex-wrap: wrap
 }
 
 .InfoImg {
-  flex-shrink: 0;
+  display: flex;
   min-width: 100px;
   padding: 30px 0;
 }
@@ -27,8 +27,10 @@
   margin: 15px 0 ;
   font-size: 30px;
   font-weight: 600;
+  
 
 }
 .infoText{
 padding: 30px;
+max-width: 500px;
 }

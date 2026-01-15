@@ -9,23 +9,23 @@ export default function Mail() {
       <p>Lorem Ipsum is simply dummy text of the printing .</p>
       <div className="one">
         <div className="field">
-          <label htmlFor="search">Search</label>
+          <label htmlFor="search">First Name</label>
           <input id="search" type="search" />
         </div>
         <div className="field">
-          <label htmlFor="search">Search</label>
+          <label htmlFor="search">Last Name</label>
           <input id="search" type="search" />
         </div>
       </div>
       <div className="two">
         <div className="field">
-          <label htmlFor="search">Search</label>
+          <label htmlFor="search">Email Address</label>
           <input id="search" type="search" />
         </div>
       </div>
       <div className="three">
         <div className="field">
-          <label htmlFor="search">Search</label>
+          <label htmlFor="search">Message</label>
           <input id="search" type="search" />
         </div>
       </div>

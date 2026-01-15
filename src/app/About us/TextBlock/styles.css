@@ -8,12 +8,14 @@
 .blocks {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .content {
   width: 25%;
   border-radius: 10px;
   padding: 50px 35px;
   background: #1c140f;
+  min-width: 150px;
 }
 .bargeBrown {
   border-radius: 7px;

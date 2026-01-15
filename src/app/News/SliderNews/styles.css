@@ -3,13 +3,14 @@
   justify-content: space-between;
   max-width: 1300px;
   margin: 0 auto;
-  
+  flex-wrap: wrap
 }
 .left-news {
   display: flex;
   flex-direction: column;
   max-width: 550px;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 .news-cardLeft {
  padding: 70px 0;
@@ -38,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   margin: 50px 0;
+  ;
 }
 .content-new{
   margin-top: 15px;
@@ -51,4 +53,6 @@
 }
 .right-news{
  max-width: 600px;
+ display: flex;
+ flex-wrap: wrap;
 }

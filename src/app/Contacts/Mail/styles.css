@@ -1,22 +1,22 @@
 .wrapper-mail {
   padding: 100px 0;
-  background-color: #1C140F;
+  background-color: #1c140f;
 }
-.wrapper-mail h2{
+.wrapper-mail h2 {
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 300;
 }
-.general-mail{
+.general-mail {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .field {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  flex: 1;
 }
 
 label {
@@ -26,36 +26,40 @@ label {
 .wrapper-mail input {
   background-color: #4f4f4f;
   border-radius: 10px;
-  border: 1px solid #cecece; 
-
-  
+  border: 1px solid #cecece;
 }
-.one{
+.one {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 50px;
   margin-top: 50px;
+  max-width: 750px;
+  width: 100%;
 }
-.one input{
-  width: 350px;
-  padding: 20px ;
-  
+.one input {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.two{
+.two {
   margin-top: 50px;
+  max-width: 750px;
+  width: 100%;
 }
-.two input{
-  width: 750px;
-  padding: 20px ;
+.two input {
+  width: 100%;
+  padding: 20px;
 }
-.three{
+.three {
   margin-top: 50px;
+  max-width: 750px;
+  width: 100%;
 }
-.three input{
-  width: 750px;
-  padding: 100px ;
+.three input {
+  width: 100%;
+  padding: 100px;
 }
-.btn-mail{
+.btn-mail {
   background: #fa9021;
   padding: 12px 20px;
   border-radius: 5px;
@@ -67,13 +71,12 @@ label {
   margin-left: auto;
   margin-top: 50px;
 }
-    
+
 .btn-mail:hover {
   background: #dc7000a9;
 }
-.Touch{
+.Touch {
   display: flex;
   max-width: 750px;
   margin: 0 auto;
-  
 }

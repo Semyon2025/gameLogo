@@ -44,6 +44,13 @@
     opacity: 1;
   }
 }
+.slide-right {
+  animation: slideFromRight 0.5s ease-in-out;
+}
+
+.slide-left {
+  animation: slideFromLeft 0.5s ease-in-out;
+}
 
 .customers-slider-controls {
   margin-top: 20px;

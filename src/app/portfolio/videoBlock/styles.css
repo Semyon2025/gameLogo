@@ -1,87 +1,87 @@
-.VideoBlock{
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0;
-  
+.VideoBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  flex-wrap: wrap;
 }
-.VideoRight{
-    width: 650px;
-    height: 354px;
-    position: relative;
-    overflow: hidden;
+.VideoRight {
+  width: 650px;
+  height: 354px;
+  position: relative;
+  overflow: hidden;
 }
 
 .VideoRight video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: rgba(250, 145, 33, 0);
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(250, 145, 33, 0);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
 }
 
 .play-button:hover {
-    background: rgba(250, 144, 33, 1);
-    transform: translate(-50%, -50%) scale(1.1);
+  background: rgba(250, 144, 33, 1);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .VideoRight video.playing + .play-button {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
-.VideoLeft{
-display: flex;
-flex-direction: column;
-margin-left: 100px;
-gap: 10px;
-width: 400px;
+.VideoLeft {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 10px;
+  width: 350px;
 }
 .VideoLeft ul li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 24px;
-    height: 24px;
-    background-image: url('../../../images/bx_bxs-check-circle.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/bx_bxs-check-circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .VideoLeft ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .VideoLeft ul li {
-    position: relative;
-    padding-left: 40px;
+  position: relative;
+  padding-left: 40px;
 }
-.VideoLeft h2{
-    font-size: 30px;
-    font-weight: 600;
+.VideoLeft h2 {
+  font-size: 30px;
+  font-weight: 600;
 }
-.VideoLeft p{
-    padding: 15px 0;
+.VideoLeft p {
+  padding: 15px 0;
 }

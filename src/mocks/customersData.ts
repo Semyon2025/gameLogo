@@ -57,6 +57,30 @@ export const CustomersData: Customer[] = [
     rating: 4.5,
     comment: "Lorem Ipsum is simply dummy text of the printing and",
   },
+  {
+    id: "7",
+    img: "/src/images/Ellipse 175 (2).svg",
+    name: "Viezh Robert",
+    location: "Shanxi, China",
+    rating: 4.5,
+    comment: "Lorem Ipsum is simply dummy text of the printing and",
+  },
+  {
+    id: "8",
+    img: "/src/images/Ellipse 175.svg",
+    name: "Viezh Robert",
+    location: "Shanxi, China",
+    rating: 4.5,
+    comment: "Lorem Ipsum is simply dummy text of the printing and",
+  },
+  {
+    id: "9",
+    img: "/src/images/Ellipse 175 (1).svg",
+    name: "Yessica Christy",
+    location: ", Seoul, South Korea",
+    rating: 4.5,
+    comment: "Lorem Ipsum is simply dummy text of the printing and",
+  },
 ];
 
 export const fetchCustomers = async (

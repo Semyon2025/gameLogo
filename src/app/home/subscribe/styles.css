@@ -24,7 +24,7 @@ flex-wrap: wrap;
     font-weight: 500;
 }
 .containerSubscribe p{
-    width: 500px;
+    max-width: 500px;
 }
 .containerSubscribe input{
     background: #FFF;
@@ -36,7 +36,7 @@ flex-wrap: wrap;
     padding: 20px 30px;
     padding-right: 120px;
     position: relative;
-    right: -110px;
+    
     z-index: 1;
     box-sizing: border-box;
 }
@@ -47,7 +47,7 @@ flex-wrap: wrap;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
-    padding: 13px 17px;
+    padding: 20px 17px;
     z-index: 2;
     position: relative;
     color: #FFF;

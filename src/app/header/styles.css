@@ -87,7 +87,8 @@ header nav ul li a.active::after {
   }
 
   header nav.open {
-    display: block;
+    display: flex;
+    justify-content: right;
   }
 
   header nav ul {

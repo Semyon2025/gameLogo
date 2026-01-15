@@ -38,6 +38,7 @@
   justify-content: center;
   gap: 20px;
   flex: 1;
+  min-width: 300px;
 }
 .contact-box h4 {
   margin-left: 15px;
@@ -45,12 +46,12 @@
 
 .contact-boxes {
   display: flex;
-
-  align-items: center;
-  padding: 30px 40px;
+  padding: 30px 0;
   width: 100%;
   margin-top: 50px;
   max-width: 1400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .phone-box {
   display: flex;
@@ -58,6 +59,7 @@
   justify-content: center;
   gap: 20px;
   flex: 1;
+  min-width: 300px;
 }
 .phone-box h3 {
   font-weight: 200;
