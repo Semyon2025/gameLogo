@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .team {
@@ -16,12 +16,14 @@
   justify-content: center;
 
 }
-.teams-title{
-    margin-top: 30px;
+
+.teams-title {
+  margin-top: 30px;
 }
+
 .team img {
-    display: block;
-    height: 80px;              
-    width: auto;
-    object-fit: contain;
-  }
+  display: block;
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}

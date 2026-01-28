@@ -1,9 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-
+    
 }
 
 body{
     font-family: 'Poppins', sans-serif;
 }
+html {
+    font-size: clamp(12px, 1vw, 16px);
+  }
+  .GeneralContainer {
+    max-width: 1146px;
+    margin: 0 auto;
+  }  

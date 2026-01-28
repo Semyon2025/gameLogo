@@ -17,13 +17,14 @@
 }
 .left-news h2 {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin: 30px;
 }
 .NameNew {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .NameNew span {
   padding: 10px;
@@ -49,7 +50,7 @@
   font-weight: 600 ;
   gap: 15px;
   margin-top: 30px;
-  font-size: 23px;
+  font-size: 1.5rem;
 }
 .right-news{
  max-width: 600px;

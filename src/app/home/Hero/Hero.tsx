@@ -12,7 +12,7 @@ export default function Hero() {
             standard.</p>
             <button className='btn'>Get more details</button>
           </div>
-          <img src={Joystick} alt='Joystick' />
+         
           </div>
           );
         }

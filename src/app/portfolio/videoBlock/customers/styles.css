@@ -130,6 +130,7 @@
   border: 1px solid #fff;
   max-width: 300px;
   min-height: 200px;
+  max-height: 250px;
 }
 
 .customer-name {
@@ -147,11 +148,11 @@
   height: auto;
 }
 .customers h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .customers p {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   
 }

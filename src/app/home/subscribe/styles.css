@@ -1,55 +1,77 @@
-.subscribe{
+.subscribe {
     padding-bottom: 120px;
     max-width: 1146px;
     margin: 0 auto;
 }
-.subscribe h3{
+
+.subscribe h3 {
     margin-top: 60px;
-    font-size: 30px;
-    
+    font-size: 1.875rem;
+
 }
-.containerSubscribe{
-background: #1C140F;
-margin-top: 30px;
-border-radius: 10px;
-padding: 40px 3%;
-width: 94%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+
+.containerSubscribe {
+    background: #1C140F;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.containerSubscribe h4{
-    font-size: 30px;
+
+.containerSubscribe h4 {
+    font-size: 1.875rem;
     font-weight: 500;
 }
-.containerSubscribe p{
+
+.containerSubscribe p {
     max-width: 500px;
 }
-.containerSubscribe input{
+
+.containerSubscribe input {
     background: #FFF;
     outline: none;
     border: 0;
-    border-radius: 5px;
+    width: 100%;
     max-width: 380px;
     font-family: poppins;
-    padding: 20px 30px;
-    padding-right: 120px;
     position: relative;
-    
+    padding-left: 8px;
     z-index: 1;
     box-sizing: border-box;
 }
-.containerSubscribe input::placeholder{
+
+.containerSubscribe input::placeholder {
     color: #898989;
 }
-.containerSubscribe .btn{
+
+.containerSubscribe .btn {
     border: 0;
-    border-radius: 5px;
     cursor: pointer;
-    padding: 20px 17px;
+    width: 100%;
     z-index: 2;
     position: relative;
     color: #FFF;
-    
+}
+
+.InputBtn {
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+
+    button {
+        border-radius: 0 !important;
+        width: 30%!important;
+        min-width: 80px;
+    }
+
+    input {
+        width: 70%;
+    }
 }

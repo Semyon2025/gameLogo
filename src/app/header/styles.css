@@ -7,6 +7,7 @@
 }
 header {
   padding: 50px 0px;
+  position: relative;
 }
 .logo {
   font-size: 29px;
@@ -76,19 +77,29 @@ header nav ul li a.active::after {
 
 @media (max-width: 768px) {
   .burger {
-    display: block;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    float: right;
+    padding: 10px;
+    z-index: 1001; 
   }
 
   header nav {
     display: none;
-    float: none;
+    position: absolute;  
+    top: 100%;           
+    left: 0;
     width: 100%;
-    margin-top: 30px;
+    background: rgba(0,0,0,0.95); 
+    z-index: 1000;       
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
   }
 
   header nav.open {
     display: flex;
-    justify-content: right;
   }
 
   header nav ul {

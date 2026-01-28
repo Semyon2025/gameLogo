@@ -3,43 +3,46 @@
   align-items: center;
   gap: 8px;
   padding-top: 70px;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
-.nav-link {
+.navLink {
   color: #999;
 }
 
-.nav-link.active {
+.navLink.active {
   color: #dc7000a9;
 }
 
-.nav-sep {
+.navSep {
   color: #999;
 }
+
 .HeroPortfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
+
 .HeroPortfolio h2 {
-  font-size: 35px;
+  font-size: 2.25rem;
   font-weight: 600;
 }
-.dark-boxes {
+
+.darkBoxes {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   background: #1c140f;
-  padding: 30px 40px;
   width: 100%;
   max-width: 900px;
   margin-top: 50px;
   flex-wrap: wrap;
 }
+
 @media (max-width: 500px) {
   .heroContainer img {
     max-width: 350px;
@@ -47,14 +50,14 @@
   }
 }
 
-.vertical-line {
+.verticalLine {
   width: 2px;
   height: 100px;
   background-color: rgba(255, 255, 255);
   margin: 0 20px;
 }
 
-.dark-box {
+.darkBox {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,14 +66,14 @@
   flex: 1;
 }
 
-.dark-box img {
+.darkBox img {
   width: 40px;
   height: 40px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.dark-box-content {
+.darkBoxContent {
   display: flex;
   flex-direction: column;
   gap: 5px;

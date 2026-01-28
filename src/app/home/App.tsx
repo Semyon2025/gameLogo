@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <main className="HomePage">
       <div className="wrapper">
-        <div className="GeneralContainer">
+        <div className="GeneralContainerHome">
           <Hero />
           <GameBlock />
           <Banner />

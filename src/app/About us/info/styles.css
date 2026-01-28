@@ -1,6 +1,7 @@
 .infoBlock {
   background: #1c140f;
 }
+
 .gameInfo {
   display: flex;
   justify-content: space-between;
@@ -9,7 +10,7 @@
   padding: 60px 0 0;
   max-width: 1146px;
   margin: 0 auto;
- flex-wrap: wrap
+  flex-wrap: wrap
 }
 
 .InfoImg {
@@ -19,18 +20,20 @@
 }
 
 .InfoImg img {
- 
+
   height: auto;
   max-width: 100%;
 }
+
 .infoText h2 {
-  margin: 15px 0 ;
-  font-size: 30px;
+  margin: 15px 0;
+  font-size: 1.875rem;
   font-weight: 600;
-  
+
 
 }
-.infoText{
-padding: 30px;
-max-width: 500px;
+
+.infoText {
+  padding: 30px;
+  max-width: 500px;
 }

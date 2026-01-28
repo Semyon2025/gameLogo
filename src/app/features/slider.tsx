@@ -1,7 +1,7 @@
 import { useState } from "react";
-import img1 from "../../images/Rectangle 4.svg";
-import img2 from "../../images/Rectangle 6.svg";
-import img3 from "../../images/Rectangle 17.png";
+import img1 from "../../images/slide1.svg";
+import img2 from "../../images/slide2.svg";
+import img3 from "../../images/slide3.svg";
 import "./slider.css";
 import { Pagination } from "./pagination/pagination";
 

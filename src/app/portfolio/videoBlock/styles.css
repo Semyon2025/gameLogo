@@ -5,8 +5,8 @@
   flex-wrap: wrap;
 }
 .VideoRight {
-  width: 650px;
-  height: 354px;
+  max-width: 650px;
+  max-height: 354px;
   position: relative;
   overflow: hidden;
 }
@@ -79,7 +79,7 @@
   padding-left: 40px;
 }
 .VideoLeft h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
 }
 .VideoLeft p {

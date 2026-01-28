@@ -6,9 +6,9 @@ export default function HeroPortfolio() {
   return (
     <div className="HeroPortfolio">
       <div className="nav">
-        <span className="nav-link">Home</span>
-        <span className="nav-sep"> &gt; </span>
-        <span className="nav-link active">Portfolio</span>
+        <span className="navLink">Home</span>
+        <span className="navSep"> &gt; </span>
+        <span className="navLink active">Portfolio</span>
       </div>
       <h2>Lorem Ipsum is simply dummy text of the printing and.</h2>
       <p>
@@ -16,26 +16,26 @@ export default function HeroPortfolio() {
         industry.
       </p>
 
-      <div className="dark-boxes">
-        <div className="dark-box">
+      <div className="darkBoxes">
+        <div className="darkBox">
           <img src={User} alt="User" />
-          <div className="dark-box-content">
+          <div className="darkBoxContent">
             <h3>30+</h3>
             <h4>Users</h4>
           </div>
         </div>
-        <div className="vertical-line"></div>
-        <div className="dark-box">
+        <div className="verticalLine"></div>
+        <div className="darkBox">
           <img src={Location} alt="Location" />
-          <div className="dark-box-content">
+          <div className="darkBoxContent">
             <h3>30+</h3>
             <h4>Countries</h4>
           </div>
         </div>
-        <div className="vertical-line"></div>
-        <div className="dark-box">
+        <div className="verticalLine"></div>
+        <div className="darkBox">
           <img src={Server} alt="Server" />
-          <div className="dark-box-content">
+          <div className="darkBoxContent">
             <h3>30+</h3>
             <h4>Projects</h4>
           </div>

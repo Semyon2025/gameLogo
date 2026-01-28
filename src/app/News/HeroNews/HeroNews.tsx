@@ -18,8 +18,8 @@ export default function HeroNews() {
 
       <div className="search">
         <SearchIcon className="search-icon" />
-        <input type="search" placeholder="Search" />
-      </div>
+        <input type="search" placeholder="Search" /></div>
+      
     </div>
   );
 }

@@ -20,7 +20,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         We promise not to spam you!  
         </p>
         </div>
-        <div>
+        <div className='InputBtn'>
             <input type="email" placeholder='Enter email address' />
             <button className='btn'>
                 Continue

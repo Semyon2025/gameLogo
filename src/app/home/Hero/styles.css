@@ -11,34 +11,28 @@
 }
 .heroInfo h2{
   color: #DC7000;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .heroInfo h1{
-  font-size: 50px;
+  font-size: 1.875rem;
   font-weight: 600;
 }
 .heroInfo p{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 170%;
   padding: 30px 0;
 
 }
-.heroContainer img{
-position: absolute;
-right: -120px;
-top: -150px;
-max-width: 100%;
-z-index: -1;
-overflow: hidden;
-}
+
+
 button.btn{
   background: #FA9021;
   padding: 9px 17px;
   border-radius: 15px;
   transition: all 0.5s ease;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
 }
